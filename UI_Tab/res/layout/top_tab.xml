@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35.0dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/frame_btn_news_lastest"
+            style="@style/frame_tab_button"
+            android:text="最新咨询" />
+
+        <Button
+            android:id="@+id/frame_btn_news_blog"
+            style="@style/frame_tab_button"
+            android:text="最新博客" />
+
+        <Button
+            android:id="@+id/frame_btn_news_recommend"
+            style="@style/frame_tab_button"
+            android:text="推荐阅读"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>
